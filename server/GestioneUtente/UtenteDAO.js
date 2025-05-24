@@ -89,6 +89,16 @@ async function ceck_metamask (id_emtamask) {
     }
 }
 
+//ceck nickname exist
+async function ceck_metamask_exist (id_metamask){
+    const ut = await utente.findOne({id_metamask : id_metamask})
+    if (ut != null) {
+        return true
+    } else {
+        return false
+    }
+}
+
 async function createAccount(id_metamask, nickname) {
     if(id_metamask != null && nickname != null) {
         if (await ceck_nickName(nickname)) {
@@ -106,4 +116,4 @@ async function createAccount(id_metamask, nickname) {
 }   
 //------------------------------------------------------------------------------------------------------------
 
-module.exports = {getAll, setNickName, setBiografia, getUtente, deleteAccount, createAccount}
+module.exports = {getAll, setNickName, setBiografia, getUtente, deleteAccount, createAccount, ceck_metamask_exist}
