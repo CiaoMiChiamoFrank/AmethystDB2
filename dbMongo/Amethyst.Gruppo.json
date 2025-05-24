@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "68306a0788d256454a478889"
+  },
+  "nick_gruppo": "Sport",
+  "descrizione": "Tutto sullo sport ed altro!",
+  "n_like": "132",
+  "n_post": "43",
+  "id_gruppo": 1
+},
+{
+  "_id": {
+    "$oid": "683194e4e2093198801791ea"
+  },
+  "nick_gruppo": "Politica",
+  "descrizione": "Discussioni sul mondo!",
+  "n_like": "93",
+  "n_post": "38",
+  "id_gruppo": 2
+},
+{
+  "_id": {
+    "$oid": "6831967b941aeb338f73bbf4"
+  },
+  "nick_gruppo": "Teconologia",
+  "descrizione": "Ultime novita' e trend tech",
+  "n_like": "84",
+  "n_post": "28",
+  "id_gruppo": 3
+}]

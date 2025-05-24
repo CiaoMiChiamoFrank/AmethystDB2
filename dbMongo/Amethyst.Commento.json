@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "682dd67275839d95a7de5bf8"
+  },
+  "id_post": "682dd5f075839d95a7de5beb",
+  "descrizione": "ottima idea!",
+  "id_utente": "682dd4cf75839d95a7de5bd5"
+},
+{
+  "_id": {
+    "$oid": "68320a770fc8f5f9492dc4d3"
+  },
+  "id_post": {
+    "$oid": "6831f30007f435953e799249"
+  },
+  "descrizione": "pippo e popolino",
+  "id_metamask": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68320a9acee505aab22915bd"
+  },
+  "id_post": {
+    "$oid": "6831f30007f435953e799249"
+  },
+  "descrizione": "pippo e popolino",
+  "id_metamask": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+  "__v": 0
+}]
