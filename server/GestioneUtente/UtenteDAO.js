@@ -113,7 +113,8 @@ async function createAccount(id_metamask, nickname) {
         } 
     }
     return false
-}   
+}
+
 //------------------------------------------------------------------------------------------------------------
 
-module.exports = {getAll, setNickName, setBiografia, getUtente, deleteAccount, createAccount, ceck_metamask_exist}
+module.exports = {getAll, setNickName, setBiografia, getUtente, deleteAccount, createAccount, ceck_metamask_exist, ceck_nickName, ceck_metamask}
