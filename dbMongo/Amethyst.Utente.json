@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "683067fa88d256454a478869"
   },
-  "id_metamask": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+  "id_metamask": "0XF39FD6E51AAD88F6F4CE6AB8827279CFFFB92266",
   "biografia": " ",
   "nickname": "Pluto"
 },
@@ -10,7 +10,7 @@
   "_id": {
     "$oid": "6830685288d256454a47886a"
   },
-  "id_metamask": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "id_metamask": "0X70997970C51812DC3A010C7D01B50E0D17DC79C8",
   "biografia": "",
   "nickname": "carmine"
 },
@@ -18,7 +18,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47886c"
   },
-  "id_metamask": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+  "id_metamask": "0X3C44CDDDB6A900FA2B585DD299E03D12FA4293BC",
   "nickname": "CryptoCat",
   "biografia": "Amante della blockchain e delle nuove tecnologie."
 },
@@ -26,7 +26,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47886d"
   },
-  "id_metamask": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+  "id_metamask": "0X90F79BF6EB2C4F870365E785982E1F101E93B906",
   "nickname": "EtherExplorer",
   "biografia": "Alla ricerca delle migliori dApp sulla rete Ethereum."
 },
@@ -34,7 +34,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47886e"
   },
-  "id_metamask": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
+  "id_metamask": "0X15D34AAF54267DB7D7C367839AAF71A00A2C6A65",
   "nickname": "GasGuru",
   "biografia": "Ottimizzo ogni transazione per il minimo costo di gas."
 },
@@ -42,7 +42,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47886f"
   },
-  "id_metamask": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+  "id_metamask": "0X9965507D1A55BCC2695C58BA16FB37D819B0A4DC",
   "nickname": "DeFiNerd",
   "biografia": "Appassionato di finanza decentralizzata e yield farming."
 },
@@ -50,7 +50,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478870"
   },
-  "id_metamask": "0x976EA74026E726554dB657fA54763abd0C3a0aa9",
+  "id_metamask": "0X976EA74026E726554DB657FA54763ABD0C3A0AA9",
   "nickname": "SmartContractor",
   "biografia": "Scrivo e audito smart contract per passione."
 },
@@ -58,7 +58,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478871"
   },
-  "id_metamask": "0x14dC79964da2C08b23698B3D3cc7Ca32193d9955",
+  "id_metamask": "0X14DC79964DA2C08B23698B3D3CC7CA32193D9955",
   "nickname": "NFTKing",
   "biografia": "Colleziono NFT rari dal 2020."
 },
@@ -66,7 +66,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478872"
   },
-  "id_metamask": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+  "id_metamask": "0X23618E81E3F5CDF7F54C3D65F7FBC0ABF5B21E8F",
   "nickname": "TokenTornado",
   "biografia": "Mi piacciono i token esotici e le nuove chain."
 },
@@ -74,7 +74,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478873"
   },
-  "id_metamask": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+  "id_metamask": "0XA0EE7A142D267C1F36714E4A8F75612F20A79720",
   "nickname": "Web3Wizard",
   "biografia": "Costruisco il futuro del web con tecnologie decentralizzate."
 },
@@ -82,7 +82,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478874"
   },
-  "id_metamask": "0xBcd4042DE499D14e55001CcbB24a551F3b954096",
+  "id_metamask": "0XBCD4042DE499D14E55001CCBB24A551F3B954096",
   "nickname": "ChainChaser",
   "biografia": "Sempre in cerca della prossima chain rivoluzionaria."
 },
@@ -90,7 +90,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478875"
   },
-  "id_metamask": "0x71bE63f3384f5fb98995898A86B02Fb2426c5788",
+  "id_metamask": "0X71BE63F3384F5FB98995898A86B02FB2426C5788",
   "nickname": "DAppDynamo",
   "biografia": "Creo dApp che cambiano il modo di vivere il web."
 },
@@ -98,7 +98,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478876"
   },
-  "id_metamask": "0xFABB0ac9d68B0B445fB7357272Ff202C5651694a",
+  "id_metamask": "0XFABB0AC9D68B0B445FB7357272FF202C5651694A",
   "nickname": "NodeNomad",
   "biografia": "Gestisco nodi e contribuisco alle reti decentralizzate."
 },
@@ -106,7 +106,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478877"
   },
-  "id_metamask": "0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec",
+  "id_metamask": "0X1CBD3B2770909D4E10F157CABC84C7264073C9EC",
   "nickname": "CryptoCrafter",
   "biografia": "Creo contenuti educativi sulla blockchain."
 },
@@ -114,7 +114,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478878"
   },
-  "id_metamask": "0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097",
+  "id_metamask": "0XDF3E18D64BC6A983F673AB319CCAE4F1A57C7097",
   "nickname": "Web3Nomad",
   "biografia": "Nomade digitale tra le reti decentralizzate."
 },
@@ -122,7 +122,7 @@
   "_id": {
     "$oid": "683068fa88d256454a478879"
   },
-  "id_metamask": "0xcd3B766CCDd6AE721141F452C550Ca635964ce71",
+  "id_metamask": "0XCD3B766CCDD6AE721141F452C550CA635964CE71",
   "nickname": "DAODev",
   "biografia": "Costruisco comunità decentralizzate attraverso DAO."
 },
@@ -130,7 +130,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47887a"
   },
-  "id_metamask": "0x2546BcD3c84621e976D8185a91A922aE77ECEc30",
+  "id_metamask": "0X2546BCD3C84621E976D8185A91A922AE77ECEC30",
   "nickname": "MetaMaster",
   "biografia": "Appassionato di metaversi e realtà aumentata."
 },
@@ -138,7 +138,7 @@
   "_id": {
     "$oid": "683068fa88d256454a47887b"
   },
-  "id_metamask": "0xbDA5747bFD65F08deb54cb465eB87D40e51B197E",
+  "id_metamask": "0XBDA5747BFD65F08DEB54CB465EB87D40E51B197E",
   "nickname": "SecuritySeal",
   "biografia": "Mi occupo di sicurezza informatica nel Web3."
 }]
