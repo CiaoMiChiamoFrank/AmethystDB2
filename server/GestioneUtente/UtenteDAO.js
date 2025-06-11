@@ -93,8 +93,10 @@ async function ceck_metamask (id_emtamask) {
 async function ceck_metamask_exist (id_metamask){
     const ut = await utente.findOne({id_metamask : id_metamask})
     if (ut != null) {
+        console.log('meta risposta', true)
         return true
     } else {
+        console.log('meta risposta', false)
         return false
     }
 }

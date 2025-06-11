@@ -78,7 +78,42 @@ async function updateGruppoDescrizione(id_gruppo, descrizione) {
         }
     }
 }
+
+async function addLikeGruppo(id_gruppo) {
+    const g = await gruppo.findOne({id_gruppo : id_gruppo})
+    if (g != null) {
+        g.n_like = g.n_like + 1
+        await g.save()
+        return true
+    }
+    return false
+}
 //------------------------------------------------------------------------------------------------------------
+
+//---------------------------------------------ADD post && Remove----------------------------------------------
+async function addNumebrPost(id_gruppo) {
+    if(await check_gruppo(id_gruppo)){
+        console.log('si sono add')
+        const result = await gruppo.updateOne(
+            { id_gruppo: id_gruppo }, // Criterio di ricerca: trova il gruppo con questo id_gruppo
+            { $inc: { n_post: 1 } }    // Operazione di aggiornamento: incrementa n_post di 1
+        );
+        console.log('sono del dao, ho aggiunto 1.')
+    }
+}
+
+async function removeNumberPost(id_gruppo) {
+    if(await check_gruppo(id_gruppo)){
+        console.log('Si, sono nella funzione removeNumberPost');
+        const result = await gruppo.updateOne(
+                { id_gruppo: id_gruppo }, // Criterio di ricerca: trova il gruppo con questo id_gruppo
+                { $inc: { n_post: -1 } }   // Operazione di aggiornamento: decrementa n_post di 1
+            );
+        console.log('Sono nel DAO, ho decrementato n_post di 1.');
+    }
+} 
+
+//-----------------------------------------------------------------------------------------------------------
 
 
 //-------------------------------CREATE-----------------------------------------------------------------------
@@ -111,4 +146,4 @@ async function createGruppo(nick_gruppo, descrizione) {
 
 //-------------------------------------------------------------------------------------------------------------
 
-module.exports = { getAllGruppo, getGruppo, deleteGruppo, updateGruppoDescrizione, createGruppo}
+module.exports = { getAllGruppo, getGruppo, deleteGruppo, updateGruppoDescrizione, createGruppo, addNumebrPost, removeNumberPost, addLikeGruppo} 

@@ -38,5 +38,15 @@ routUtente.post('/signup', async (req, res) => {
     }
 });
 
+routUtente.get('/getAccount/:id', async (req, res) => {
+    try {
+    const idMeta = req.params.id.toUpperCase();
+    const account = await getUtenteService(idMeta);
+    res.json(account); 
+  } catch (err) {
+    res.status(500).json({ error: 'Errore nel recupero del gruppo' });
+  }
+})
+
 
 module.exports = routUtente

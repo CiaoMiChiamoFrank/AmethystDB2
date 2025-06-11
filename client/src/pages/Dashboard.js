@@ -18,19 +18,26 @@ const Dashboard = () => {
 
     const fetchGruppi = async () => {
       try {
-        const provider = new ethers.BrowserProvider(window.ethereum);
+/*        const provider = new ethers.BrowserProvider(window.ethereum);
         const signer = await provider.getSigner();
         const contract = new ethers.Contract(amethystAddress, amethystABI, signer);
 
         const gruppiData = await contract.getGruppi();
         setGruppi(gruppiData);
 
-        /*for (let i = 0; i < gruppiData.length; i++) {
+        for (let i = 0; i < gruppiData.length; i++) {
           console.log("Nick name gruppo:", gruppiData[i].nick_group);
         }*/
-      } catch (error) {
-        console.error("Errore nel recupero dei gruppi:", error);
-      }
+        const response = await fetch("http://localhost:5000/apiGruppo/getGruppoAll"); // cambia porta/endpoint se necessario
+        if (!response.ok) {
+          throw new Error("Errore nella risposta del server");
+        }
+        const data = await response.json();
+        console.log('GRUPPIIIIIIIIIIIIIII', data)
+        setGruppi(data);
+        } catch (error) {
+          console.error("Errore nel recupero dei gruppi:", error);
+        }
     };
 
     fetchGruppi();
@@ -66,14 +73,14 @@ const Dashboard = () => {
           >
             {/* Immagine */}
             <img
-              src={require(`./img/${gruppo.nick_group}.jpg`)}
-              alt={`${gruppo.nick_group}`}
+              src={require(`./img/${gruppo.nick_gruppo}.jpg`)}
+              alt={`${gruppo.nick_gruppo}`}
               className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             {/* Contenuto della card */}
             <div className="p-5">
               <h2 className="text-xl font-bold text-gray-800 group-hover:text-purple-700 transition-colors duration-300">
-                {gruppo.nick_group}
+                {gruppo.nick_gruppo}
               </h2>
               <p className="text-gray-600 mt-2 text-sm leading-relaxed">
                 {gruppo.descrizione}

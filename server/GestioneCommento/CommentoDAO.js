@@ -12,6 +12,10 @@ const commentoSchema = new mongoose.Schema ({
     id_metamask : {
         type : String,
         require : true
+    },
+    nick_name: {
+        type : String,
+        require : true
     }
 })
 
@@ -20,14 +24,15 @@ const {ceck_post} = require('../GestionePost/PostDAO')
 const {ceck_metamask_exist} = require('../GestioneUtente/UtenteDAO')
 
 //------------------------------------CREATE------------------------------------------------------
-async function createCommento(id_post, descrizione, id_metamask) {
+async function createCommento(id_post, descrizione, id_metamask, nick_name) {
     if(await ceck_post(id_post)) {
         if (await ceck_metamask_exist(id_metamask)) {
             if (descrizione. length <= 255) {
                 const com = await commento.create({
                     id_post : id_post,
                     descrizione : descrizione,
-                    id_metamask : id_metamask
+                    id_metamask : id_metamask,
+                    nick_name : nick_name
                 })
                 await com.save()
                 return true
@@ -59,6 +64,12 @@ async function getCommento(id_post) {
         return com
     }
 }
+
+async function getCommentiByPostId(id_post) {
+  return commento.find({ id_post }).lean();
+}
+
+
 //-------------------------------------------------------------------------------------------------
 
 //----------------------UPDATE---------------------------------------------------------------------
@@ -78,4 +89,4 @@ async function updateCommento(id_commento, descrizione, id_metamask) {
 //--------------------------------------------------------------------------------------------------
 
 
-module.exports = {getCommento, updateCommento, deleteCommento, createCommento}
+module.exports = {getCommento, updateCommento, deleteCommento, createCommento, getCommentiByPostId}

@@ -1,4 +1,4 @@
-const {createPost, updatePost, getPost, deletePost} = require ('./PostDAO.js')
+const {createPost, updatePost, getPost, deletePost, addLike} = require ('./PostDAO.js')
 
 async function createPostService(id_gruppo, id_metamask, title, descrizione, author, path) {
     const bool = await createPost(id_gruppo, id_metamask, title, descrizione, author, path)
@@ -15,9 +15,14 @@ async function getPostService(id_gruppo) {
     return post
 }
 
-async function deletePostService(id_post, id_metamask) {
-    const bool = await deletePost(id_post, id_metamask)
+async function deletePostService(id_post, id_metamask, id_gruppo) {
+    const bool = await deletePost(id_post, id_metamask, id_gruppo)
     return bool
 }
 
-module.exports = {createPostService, updatePostService, getPostService, deletePostService}
+async function addLikeService(id_post, id_metamask) {
+    const bool = await addLike(id_post, id_metamask)
+    return bool
+}
+
+module.exports = {createPostService, updatePostService, getPostService, deletePostService, addLikeService}

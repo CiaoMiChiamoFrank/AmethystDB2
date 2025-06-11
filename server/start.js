@@ -161,9 +161,9 @@ app.post("/register", (req, res) => {
   });
 
 app.use('/Utente',routUtente)
-app.use(routGruppo)
-app.use(routPost)
-app.use(routCommento)
+app.use('/apiGruppo', routGruppo)
+app.use('/apiPost', routPost)
+app.use('/apiCommento', routCommento)
 
 // Start server
 app.listen(PORT, () => {
