@@ -49,4 +49,23 @@ routUtente.get('/getAccount/:id', async (req, res) => {
 })
 
 
+routUtente.post('/modificanick', async (req, res) => {
+  const { account, nickname } = req.body;
+  const ut = await setNickNameService(nickname, account.toUpperCase());
+  console.log(ut + 'risposta nick nameeee')
+  return ut
+    ? res.status(200).json({ success: true, ut })
+    : res.status(400).json({ success: false });
+});
+
+
+routUtente.post('/modificabio', async (req, res) => {
+  const { account, biografia } = req.body;
+  const ut = await setBiografiaService(account.toUpperCase(), biografia);
+  return ut
+    ? res.status(200).json({ success: true, ut })
+    : res.status(400).json({ success: false });
+});
+
+
 module.exports = routUtente

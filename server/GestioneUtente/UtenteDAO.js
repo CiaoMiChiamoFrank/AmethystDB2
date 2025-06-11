@@ -49,9 +49,10 @@ async function setNickName(nickname, id_metamask) {
         if( await ceck_nickName(nickname)) {
             ut.nickname = nickname
             await ut.save()
+            return true
         }
     }
-    return ut
+    return false
 }
 
 async function setBiografia(id_emtamask, biografia) {
