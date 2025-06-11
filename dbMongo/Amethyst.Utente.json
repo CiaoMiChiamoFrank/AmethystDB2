@@ -141,4 +141,13 @@
   "id_metamask": "0XBDA5747BFD65F08DEB54CB465EB87D40E51B197E",
   "nickname": "SecuritySeal",
   "biografia": "Mi occupo di sicurezza informatica nel Web3."
+},
+{
+  "_id": {
+    "$oid": "6849758744abd809a1b6854a"
+  },
+  "id_metamask": "0XDD2FD4581271E230360230F9337D5C0430BF44C0",
+  "nickname": "Pix",
+  "biografia": "",
+  "__v": 0
 }]

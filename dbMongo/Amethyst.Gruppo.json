@@ -4,8 +4,10 @@
   },
   "nick_gruppo": "Sport",
   "descrizione": "Tutto sullo sport ed altro!",
-  "n_like": "132",
-  "n_post": "43",
+  "n_like": 142,
+  "n_post": {
+    "$numberLong": "940"
+  },
   "id_gruppo": 1
 },
 {
@@ -14,17 +16,121 @@
   },
   "nick_gruppo": "Politica",
   "descrizione": "Discussioni sul mondo!",
-  "n_like": "93",
-  "n_post": "38",
+  "n_like": 113,
+  "n_post": {
+    "$numberLong": "3507"
+  },
   "id_gruppo": 2
 },
 {
   "_id": {
     "$oid": "6831967b941aeb338f73bbf4"
   },
-  "nick_gruppo": "Teconologia",
+  "nick_gruppo": "Tecnologia",
   "descrizione": "Ultime novita' e trend tech",
-  "n_like": "84",
-  "n_post": "28",
+  "n_like": {
+    "$numberLong": "84"
+  },
+  "n_post": {
+    "$numberLong": "28"
+  },
   "id_gruppo": 3
+},
+{
+  "_id": {
+    "$oid": "68306a0788d256454a478999"
+  },
+  "nick_gruppo": "Musica",
+  "descrizione": "Condividi le tue passioni musicali",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 4
+},
+{
+  "_id": {
+    "$oid": "68419bf935d599511d29819b"
+  },
+  "nick_gruppo": "Cucina",
+  "descrizione": "Ricette e trucchi culinari",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 5
+},
+{
+  "_id": {
+    "$oid": "68419c2435d599511d29819c"
+  },
+  "nick_gruppo": "Viaggi",
+  "descrizione": "Destinazioni e consigli di viaggio",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 6
+},
+{
+  "_id": {
+    "$oid": "68419c4735d599511d29819d"
+  },
+  "nick_gruppo": "Cinema",
+  "descrizione": "Film, serie TV e recensioni",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 7
+},
+{
+  "_id": {
+    "$oid": "68419bf935d599511d29811b"
+  },
+  "nick_gruppo": "Libri",
+  "descrizione": "Discussioni su romanzi e letture interessanti",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 8
+},
+{
+  "_id": {
+    "$oid": "68419bf935d599511d29319b"
+  },
+  "nick_gruppo": "Videogiochi",
+  "descrizione": "Tutto sui videogames e il gaming",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 9
+},
+{
+  "_id": {
+    "$oid": "68419bf935d599511d29819a"
+  },
+  "nick_gruppo": "Fitness",
+  "descrizione": "Allenamenti, diete e consigli per la salute",
+  "n_like": {
+    "$numberLong": "0"
+  },
+  "n_post": {
+    "$numberLong": "0"
+  },
+  "id_gruppo": 10
 }]
